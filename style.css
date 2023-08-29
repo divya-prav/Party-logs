@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: #DBEDF3;
+}
+
+#party-container {
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin: 2% 10%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: cursive;
+   
+
+}
+
+.party-card{
+    flex-basis: 200px;
+    flex-grow: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #AAC8A7;
+    margin: 10px;
+    padding: 20px;
+}
+
+h1,h2{
+    text-align: center;
+    padding:20px;
+    color: #044343;
+    
+
+}
+
+p{
+    padding: 10px;
+}
+
+.party-details{
+    flex-basis: 300px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+    background-color: #D0F5BE;
+    margin: 5px 10px;
+    padding: 30px;
+    border-radius: 10px;
+  
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.details-button{
+    padding: 10px;
+    background-color: #183D3D;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    border: none;
+}
+.delete-button{
+    padding: 10px;
+    background-color:#ED2B2A;
+    border-radius: 5px;
+    float: right;
+    margin-top: 10px;
+    color: white;
+    border: none;
+}
+.close-button{
+    width:100px;
+    height:20px;
+    background-color:  #183D3D;
+    margin: 10px;
+    color: white;
+    
+    
+}
