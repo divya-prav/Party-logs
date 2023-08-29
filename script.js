@@ -31,19 +31,7 @@ const getPartyById = async (id) => {
   }
 };
 
-//hide and show
-//to get  
-function hideAndShow(){
- 
-  let x = document.getElementById("party-container");
-  
-  if(x.style.display ===""){
-     x.style.display="flex";
-  }
-  else{
-     x.style.display ="";
-  }
-}
+
 
 // delete party
 const deleteParty = async (id) => {
@@ -133,7 +121,7 @@ const renderParties = async (parties) => {
                 <p>${party.date}</p>
                 <p>${party.time}</p>
                 <p>${party.location}</p>
-                <button class="details-button" data-id="${party.id}" onclick="hideAndShow()">See Details</button>
+                <button class="details-button" data-id="${party.id}" >See Details</button>
                 <button class="delete-button" data-id="${party.id}">Delete</button>
             `;
       partyContainer.appendChild(partyElement);
